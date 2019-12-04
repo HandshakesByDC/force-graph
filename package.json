@@ -48,6 +48,7 @@
     "d3-scale-chromatic": "^1.5.0",
     "d3-selection": "^1.4.0",
     "d3-zoom": "^1.8.3",
+    "global": "^4.4.0",
     "index-array-by": "^1.2.7",
     "kapsule": "^1.12.1",
     "lodash.throttle": "^4.1.1"
