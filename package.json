@@ -1,23 +1,15 @@
 {
-  "name": "force-graph",
-  "version": "2.0.1",
+  "name": "skyeye-force-graph",
+  "version": "2.0.2",
   "description": "2D force-directed graph rendered on HTML5 canvas",
-  "unpkg": "dist/force-graph.min.js",
-  "main": "dist/force-graph.common.js",
-  "module": "dist/force-graph.module.js",
+  "unpkg": "dist/skyeye-force-graph.min.js",
+  "main": "dist/skyeye-force-graph.common.js",
+  "module": "dist/skyeye-force-graph.module.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/vasturiano/force-graph.git"
   },
   "homepage": "https://github.com/vasturiano/force-graph",
-  "keywords": [
-    "2d",
-    "force",
-    "simulation",
-    "graph",
-    "canvas",
-    "d3"
-  ],
   "author": {
     "name": "Vasco Asturiano",
     "url": "http://bl.ocks.org/vasturiano"
@@ -29,7 +21,7 @@
   "scripts": {
     "build": "rimraf dist && rollup -c",
     "dev": "rollup -c -w",
-    "minify": "terser dist/force-graph.js -o dist/force-graph.min.js -c -m --comments '/Version/'",
+    "minify": "terser dist/skyeye-force-graph.js -o dist/skyeye-force-graph.min.js -c -m --comments '/Version/'",
     "build-module": "rollup -c rollup.config.module.js",
     "prepare": "npm run build && npm run minify && npm run build-module"
   },
